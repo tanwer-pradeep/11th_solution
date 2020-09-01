@@ -1,0 +1,14 @@
+Question: -
+2.	Find an A.P, with a1 = 56 and d = 5, up to 7th term.
+
+
+solution: -
+
+a = int(input("enter the first term "))
+d = int(input("enter the common difference "))
+n = int(input("enter the number of terms "))
+#a_n = a + (n-1) * d
+i = 2
+while i <= n:
+    print(a + (i-1) * d)
+    i = i + 1

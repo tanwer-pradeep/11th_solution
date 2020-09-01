@@ -1,0 +1,9 @@
+Question Statement:-
+The program takes both the values from the user and swaps them without using temporary variable.
+
+solution:-
+a = int(input("enter the value of a "))
+b = int(input("enter the value of b "))
+
+print("a = ", ((a + b) - a))
+print("b = ", ((a + b) - b))

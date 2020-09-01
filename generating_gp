@@ -1,0 +1,12 @@
+Question: -
+3.	Find a G.P, with a1 = 2 and r = 2, up to 8th term.
+
+Solution:- 
+
+a = int(input("enter the first term "))
+r = int(input("enter the common ratio "))
+n = int(input("enter the number of terms "))
+i = 2
+while i <= n:
+    print(a * r ** (i -1))
+    i = i + 1

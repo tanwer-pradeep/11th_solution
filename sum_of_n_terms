@@ -1,0 +1,10 @@
+Question: -
+4.	Find the sum of n natural numbers.
+
+
+solution:-
+
+n = int(input("enter the no "))
+
+print(f"sum of first {n} numbers is ", ((n * (n + 1)) // 2))
+

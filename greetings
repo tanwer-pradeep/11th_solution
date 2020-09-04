@@ -1,0 +1,14 @@
+
+print("enter 1 if its morning\n", "enter 2 if its afternoon\n", "enter 3 if its evening\n", "else its night")
+
+
+a = int(input("what is the time = "))
+
+if a == 1:
+    print("Good Morning")
+elif a == 2:
+    print("Good afternoon")
+elif a == 3:
+    print("Good Evening")
+else:
+    print("Good night")
